@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.fieldGroup {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 10px;
+}
+
+.fieldContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  margin: 10px;
+}
